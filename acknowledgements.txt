@@ -1,0 +1,25 @@
+ACKNOWLEDGMENTS
+
+External Sources and Documentation:
+- yfinance library documentation and tutorials from Medium article on stock data extraction methods (https://medium.com/@kasperjuunge/yfinance-10-ways-to-get-stock-data-with-python-6677f49e8282)
+- Stock ticker research for M stocks (https://www.eoddata.com/stocklist/nyse/m.htm, https://www.angelone.in/us-stocks/m)
+- Stack Overflow reference for yfinance adjusted close price column structure handling (https://stackoverflow.com/questions/79338283/yfinance-how-to-obtain-the-adj-close-price)
+- SciPy documentation for portfolio optimization using minimize function (https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html)
+- Medium article on mean-variance portfolio optimization implementation patterns (https://medium.com/@BorisGerat/mean-variance-and-minimum-variance-portfolio-models-in-python-64a5c6b57b2d)
+- NumPy documentation for multivariate normal random sampling in portfolio stability analysis (https://numpy.org/doc/2.2/reference/random/generated/numpy.random.multivariate_normal.html)
+
+
+Libraries Used:
+- yfinance: Downloaded historical stock price data from Yahoo Finance API
+- pandas: Data manipulation, DataFrame operations, and CSV/TSV file handling
+- numpy: Numerical computations, array operations, linear algebra for portfolio calculations
+- scipy.optimize: Constrained optimization for minimum variance portfolio and efficient frontier construction
+- datetime: Date handling for monthly time series data
+- calendar: Month-end date calculations for trading day identification
+- os: File system operations and file verification
+
+
+Generative AI Assistance:
+- No Ai assistance. Only google used for resources, documentation used for functions, and included previous jupyter notebooks.
+- No collaboration with other students occurred on this assignment.
+
